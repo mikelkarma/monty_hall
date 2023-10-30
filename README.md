@@ -5,10 +5,8 @@ O problema envolve três portas, sendo que atrás de uma delas há um carro e at
 
 
 # Explicão do cauculo
-
-"""
-
-def simular_monty_hall(num_simulacoes):
+```python
+ def simular_monty_hall(num_simulacoes):
     # Inicializa as contagens de vitórias ao manter a escolha original e ao trocar
     vitorias_mantendo = 0
     vitorias_trocando = 0
@@ -35,5 +33,4 @@ def simular_monty_hall(num_simulacoes):
 
     # Retorna o número de vitórias ao manter a escolha original e ao trocar
     return vitorias_mantendo, vitorias_trocando
-
-"""
+```
