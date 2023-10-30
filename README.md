@@ -4,7 +4,7 @@ Este site simula o problema de Monty Hall, um quebra-cabeça de probabilidade no
 O problema envolve três portas, sendo que atrás de uma delas há um carro e atrás das outras duas há cabras. Você escolhe uma porta e, em seguida, Monty, que sabe o que há atrás de cada porta, abre outra porta revelando uma cabra. Você tem a opção de manter sua escolha inicial ou trocar para a porta não aberta restante. Esta simulação calcula as probabilidades para ambas as estratégias.
 
 
-# Explicão do cauculo
+# Explicação do cauculo
 ```python
  def simular_monty_hall(num_simulacoes):
     # Inicializa as contagens de vitórias ao manter a escolha original e ao trocar
